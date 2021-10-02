@@ -1,0 +1,394 @@
+	a {
+		cursor: url('http://www.marianopascual.me/img/cursor-pointer.png'), default;
+	}
+
+	.escrito {
+		margin: 10px;
+	}
+
+	body {
+		background-color: #EA5699;
+		padding: 0;
+		margin: 0;
+		cursor: url('http://www.marianopascual.me/img/cursor-mouse.png'), default;
+	}
+
+	.form {
+		font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+		margin-left: 6% ;
+		margin-right: 2% ;
+		margin-top: 10px;
+	}
+
+	.form button:hover,.form button:active,.form button:focus {
+		background: #A15EDD;
+	  }
+
+	  .form button {
+		font-family: "Roboto", sans-serif;
+		text-transform: uppercase;
+		outline: 0;
+		background: #EA5699;
+		width: 100%;
+		border: 0;
+		padding: 15px;
+		color: #FFFFFF;
+		font-weight: bold;
+		font-size: 14px;
+		-webkit-transition: all 0.3 ease;
+		transition: all 0.3 ease;
+		cursor: url('http://www.marianopascual.me/img/cursor-pointer.png'), default;
+	  }
+	input {
+		padding: 10px;
+		width: 90%;
+	}
+
+	textarea {
+		width: 90%;
+		padding: 10px;
+		height: 200px;
+		background: white;
+		color: black;
+		font-size: 12px;
+		font-weight: 700;
+		font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+		resize: none;
+	}
+
+	.frame {
+		position: absolute;
+		border: 0px solid #333;
+		background: white;
+		box-shadow: 10px 7px #8BCCC3;
+		border-radius: 3px;
+		z-index: 10;
+		overflow: hidden;
+		cursor: url('http://www.marianopascual.me/img/cursor-mouse.png'), default;
+	}
+
+	.topbar {
+		border-radius: 3px 3px 0 0;
+		padding: 5px;
+		text-align: right;
+		cursor: url('http://www.marianopascual.me/img/cursor-pointer.png'), default;
+	}
+
+	.xbtn,
+	.maxbtn {
+		padding: 2px 4px;
+		text-align: center;
+		border-radius: 2px;
+		color: white;
+		display: inline-block;
+		*display: inline;
+		zoom: 1.0;
+		vertical-align: top;
+		font-family: 'Days One', sans-serif;
+		font-size: 16px;
+		margin-top: -3px;
+	}
+
+	.title_page {
+		color: white;
+		display: block;
+		float: left;
+		cursor: pointer;
+		margin-left: 5px;
+		font-weight: 700;
+		font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+	}
+
+	.verde {
+		background: #BBD260;
+	}
+
+	.azul {
+		background: #4E62AA;
+	}
+
+	.ciano {
+		background: #8BCCC3;
+	}
+
+	.rosa {
+		background: #EA5699;
+	}
+
+	.roxo {
+		background: #A15EDD;
+	}
+
+	.maxbtn span {
+		display: block;
+		border: 1px solid white;
+		border-top: 2px solid white;
+		width: 9px;
+		height: 8px;
+		margin-top: 6px;
+	}
+
+	.maxbtn:hover span,
+	.maximized .maxbtn span {
+		border-color: #e7e7e7;
+	}
+
+	.xbtn:hover {
+		color: #e7e7e7;
+	}
+
+	.content {
+		height: auto;
+		width: auto;
+		padding: 2px;
+	}
+
+	.content>div {
+		width: inherit;
+		height: inherit;
+	}
+
+	.content>iframe {
+		width: inherit;
+		height: inherit;
+	}
+
+
+
+	.active {
+		z-index: 999999;
+	}
+
+
+	.menuu {
+		list-style-type: none;
+		vertical-align: middle;
+		margin-top: 13%;
+		margin-left: 2%;
+	}
+
+	.menuu img {
+		width: 70px;
+		height: 70px;
+	}
+
+	.butaos {
+		list-style-type: none;
+		text-decoration: none;
+		margin-top: 20px;
+		transition: 0.5s;
+		transition-timing-function: ease-in-out;
+	}
+
+	.butaos:hover {
+		fill: #EA5699;
+		cursor: url('http://www.marianopascual.me/img/cursor-pointer.png'), default;
+		width: 80px;
+		height: 80px;
+	}
+
+	.escrivura {
+		font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+		/* margin-left: 20px; */
+		font-size: 18px;
+		line-height: 1.6;
+		font-weight: 400;
+	}
+
+	.escrivura a {
+		font-size: 20px;
+		font-weight: bold;
+		color: rgb(255, 255, 255);
+		background-color: #EA5699;
+		text-decoration: none;
+	}
+
+	.escrivura a:hover {
+		color: rgb(255, 255, 255);
+		background-color: #A15EDD;
+	}
+
+	.marcado {
+		font-weight: bold;
+		color: rgb(255, 255, 255);
+		background-color: #EA5699;
+	}
+
+	#video {
+		display: none;
+		top: 27%;
+		left: 10%;
+
+	}
+
+	#website {
+		display: none;
+		top: 10px;
+		left: 350px;
+
+	}
+
+	#custom {
+		top: 25%;
+		left: 30%;
+	}
+
+	#sticky {
+		display: none;
+		top: 200px;
+		left: 600px;
+
+	}
+
+	#video .content {
+		width: 500px;
+		height: 400px;
+	}
+
+	#website .content {
+		width: 650px;
+		height: 800px;
+		right: 0;
+	}
+
+	#custom .content {
+		width: 550px;
+		height: 400px;
+	}
+
+	#sticky .content {
+		width: 600px;
+		height: 450px;
+	}
+
+	.frame.maximized {
+		top: 1% !important;
+		left: 1% !important;
+		width: 98% !important;
+		height: 98% !important;
+		-moz-transition: width .25s linear, height .25s linear, top .25s linear, left .25s linear;
+		-webkit-transition: width .25s linear, height .25s linear, top .25s linear, left .25s linear;
+		transition: width .25s linear, height .25s linear, top .25s linear, left .25s linear;
+	}
+
+	.frame.maximized .content {
+		margin: 0 auto !important;
+		width: 96% !important;
+		height: 96% !important;
+		-moz-transition: width .25s linear, height .25s linear, top .25s linear, left .25s linear;
+		-webkit-transition: width .25s linear, height .25s linear, top .25s linear, left .25s linear;
+		transition: width .25s linear, height .25s linear, top .25s linear, left .25s linear;
+	}
+
+	/* MOBILE LET IT GO
+@media only screen and (min-width : 150px) and (max-width : 530px) {
+		.menuu{
+			list-style-type: none; 
+			margin-top: 80%; 
+			margin-left: 2%;
+		}
+		.menui img{
+			width: 30px;
+			height: 30px;
+		}
+		.butaos{
+			list-style-type: none;
+			text-decoration: none;
+			margin-top: 20px;
+			transition: 0.5s;
+			transition-timing-function: ease-in-out;
+		}
+		.butaos:hover{
+			fill: #EA5699;
+			width: 80px;
+			height: 80px;
+		}
+		.title_page{
+			font-size: 36px;
+		}
+		.xbtn{
+			font-size: 46px;
+		}
+		.maxbtn{
+			display: none;
+		}
+		.content{
+			height: auto;
+			width: auto;
+			padding: 2px;
+		}
+		.content>div{
+			width: inherit;
+			height: inherit;
+		}
+		.content>iframe{
+			width: inherit;
+			height: inherit;
+		}
+		.escrivura{
+			font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+			/* margin-left: 20px; 
+			font-size: 16px;
+			line-height: 1.6;
+			font-weight: 400;
+		}
+		.escrivura img{
+			height: 70%;
+			width: 70%;
+		};
+		.escrivura a{	
+			margin-right: 20px;
+			font-size: 18px;
+			font-weight: bold;
+			color: rgb(255, 255, 255);
+			background-color: #EA5699 ;
+			text-decoration: none;
+		}
+		.escrivura a:hover{
+			color: rgb(255, 255, 255);
+			background-color: #A15EDD ;
+		}
+		.marcado{
+			font-weight: bold;
+			color: rgb(255, 255, 255);
+			background-color: #EA5699 ;
+		}
+		#video{
+			display: none;
+			top: 500px;
+			left: 0px;
+		}
+		#website{
+			display: none;
+			top: 0px;
+			left: 0px;
+		}
+		#custom{
+			margin: 5px;
+			top: 0px;
+			left: 0px;
+		}
+		#sticky{
+			top: 280px;
+			left: 10px;
+		}
+		#video .content{
+			width: 400px;
+			height: 400px;
+		}
+		#website .content{
+			width: 450px;
+			height: 500px;
+			right: 0;
+		}
+		#custom .content{
+			margin: 5px;
+			width: 100%;
+			height: 100%;
+		}
+		
+		#sticky .content{
+			width: 300px;
+			height: 350px;
+		}
+	} */
